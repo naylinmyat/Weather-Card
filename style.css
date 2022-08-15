@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(50,49,64,255);
+    font-family: sans-serif;
+}
+.cardContainer{
+    width: 260px;
+    height: 280px;
+    background: rgba(56,55,73,255);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-top: 20%;
+}
+p{
+    color: #a7a7ae;
+}
+.geoLocation{
+    border-bottom: 2px solid #ff6475;
+    padding-bottom: 4%;
+    width: 100%;
+    text-align: center;
+}
+.temperature{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 4%;
+}
+.buttonContainer{
+    transform: rotate(90deg);
+}
+button{
+    background: rgba(56,55,73,255);
+    border: 2px solid #ff6475;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+button:hover{
+    border: 2px solid #ffdf90;
+    color: #ffdf90;
+}
+.cToF{
+    display: block;
+}
+.fToC{
+    display: none;
+}
